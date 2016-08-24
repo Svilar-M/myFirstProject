@@ -1,0 +1,304 @@
+{
+  margin:0;
+  padding:0;
+}
+
+body{
+	margin:0;
+	padding:0;
+	height: auto;
+}
+
+/*.pozadina{
+	width:100%;
+	
+}*/
+
+#hero {
+  background-color: black;
+  padding:0;
+
+}
+.header{
+  height:50px;
+  width:100%;
+  position:absolute;
+  top:0;
+
+  z-index: 999;
+}
+.nav{
+  float:right;
+}
+ul {
+    list-style-type: none;
+	
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+	font-weight: bold;
+}
+
+
+.hero{
+/*	position:relative;*/
+  height:100px;
+	background-size: cover;
+	background-position:center center;
+	background-attachment: fixed;
+	overflow: hidden;	
+	background-color:black;
+}
+
+.bg2{
+  clear:both;
+	background-image: url('../img/PRVASLIKA.jpg');
+}
+
+.bg3 {
+	background-image: url('../img/DRUGASLIKA.jpg');
+}
+
+.logo {
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  margin-top:80px;
+  left: 50%;
+  margin-left: -210px;
+  padding: 0 0 10px 0; 
+  
+}
+
+
+.wines {
+  height:600px;
+  width:100%;
+  background-image: linear-gradient(#26081E,#21071A);
+  z-index: 2;
+  color: white;
+  box-shadow: 0px 5px 10px #111214, 0px -5px 10px #111214;
+  position: relative;
+  padding-top: 40px;
+  font-family:'londonMM',Arial,sans-serif; 
+}
+
+
+.tour {  
+  height: 900px;
+  width:100%;
+  background-image:linear-gradient(#fef8de,#927b5b);
+  z-index: 2;
+  color: white;
+  box-shadow: inset 0 5px 10px #111214;
+  position: relative;
+  padding-top: 40px;
+  
+
+}
+
+.tourHeader{
+  width:300px;
+  left:50%;
+  margin-left:-150px;
+  position:absolute;
+  text-align: center;
+  font-family:'londonMM',Arial,sans-serif; 
+  color:black;
+  border-bottom: 2px solid #4c0d22;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.prozor {
+  width: 640px;
+  height: 640px;
+  left: 50%;
+  margin-left: -320px;
+  background-image: url(../img/winetour.jpg);
+  background-position: center -50px;
+  background-attachment: fixed;
+  margin-top: 150px;
+  border-radius: 50%;
+  position: relative; 
+  background-repeat: repeat-y;
+}
+.roletna{
+  position:absolute;
+  border-radius: 50%;
+  bottom: 0;
+  top:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,0.8);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.promo-tekst{
+  text-align: center;
+  color:white;
+  font-weight: 100;
+  font-family:'londonMM',Arial,sans-serif; 
+  font-size: 50px;
+  line-height: 1.2;
+}
+ strong{
+  display:block;
+  font-size:30px;
+}
+ .roletna:span{
+  font-weight: 400;
+  font-size:15px;
+  font-style: italic;
+  color:rgba(255,255,255,0.6);
+
+}
+ .window-cta{
+  font-size: 20px;
+  color:white;
+  border:1px solid white;
+  padding:10px 20px;
+ }  
+ a:hover{
+  color:white;
+ }
+
+ .contact{
+  position:absolute;
+  background-image:url(../img/contact.jpg);
+  height:480px;
+  width:100%;
+  background-repeat:no-repeat;
+  background-color: white;
+  font-family:'londonMM',Arial,sans-serif; 
+ }
+ .contact img{
+  float:right;
+  height:480px;
+
+ }
+ 
+ 
+ .winesHeader {
+  width: 150px;
+  left: 50%;
+  margin-left: -75px;
+  position: absolute;
+  border-bottom: 2px solid black;
+  margin-top: 50px;
+}
+
+ .wines h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+ .burici {
+  line-height: 150%; 
+  font-size: 12px; 
+  margin: 0 auto; 
+  width: 90%; 
+  max-width: 1500px; 
+  padding-top: 10px;
+  margin-top: 200px;
+}
+
+ .bure {
+  text-align: center; 
+  width: 100%; 
+  color: #fff; 
+  float: left; 
+  list-style-type: none; 
+  transition: all 0.25s; 
+  position: relative; 
+  box-sizing: border-box;
+  
+  margin-bottom: 10px; 
+  border-bottom: 1px solid transparent; 
+  opacity: 0.8;
+}
+
+
+ .bure img {
+  display: block;
+  transform: scale(.8);
+  transition: all 0.3s ease-in-out; 
+  margin: 0 auto;
+  margin-left:-10px;
+}
+
+ .bure:hover img {
+  transform: scale(1.1); 
+}
+
+ .bureOpis {
+  display: table; 
+  width: 100%; 
+  height: 70px;
+  margin-top: 20px; 
+}
+ .bureOpis_1 {
+  font-size: 25px; 
+  vertical-align: middle; 
+  display: table-cell;
+}
+ .bureOpis_1 span {
+  font-family:'londonMM',Arial,sans-serif;     
+  border-bottom: 1px solid black;
+  width: 80%;
+  margin-left: 30px;
+  padding-bottom: 20px;
+  
+}
+
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+  .bure {width: 50%;}
+}
+@media only screen and (min-width : 768px){
+  .bure {width: 25%;}
+}
+
+.scrollup {
+	width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 100px;
+    text-indent: -9999px;
+    background-color: white;
+    z-index: 10;
+    border-radius: 50%;
+    background-image: url(../img/scrollToTop2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scrollupHidden {
+    bottom: -40px;
+}
+
+.scrollupVisible {
+    bottom: 50px;
+}

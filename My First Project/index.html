@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  
+<!--pocetak-->
+<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+  
+
+    <!-- kraj -->
+
+  <link rel="stylesheet" href="fonts/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+  <link href='https://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jQuery/jquery-1.12.0.min.js"></script>
+  <script src="js/jQuery/jquery-ui.min.js"></script>
+  <script src="js/jQuery/jquery.easing.1.3.min.js"></script>
+  <script src="js/local/index.js"></script>
+
+	 <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<title>FrouFrou.</title>
+</head>
+<body id="page-top" class="index">
+
+   <div id="hero">
+      <div class="header">
+ <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            
+            <div class="navbar-header page-scroll">
+               
+               <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo1.png" alt=""></a>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li><a href="" onclick="scrollTo(0); return false;">Home</a></li>
+                    <li><a href="" onclick="scrollTo(950); return false;">Wines</a></li>
+                    <li><a href="" onclick="scrollTo(1600); return false;">Wine tours</a></li>
+                   
+                    <li>
+                        <a href="" onclick="scrollTo(3000); return false;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+      </div>
+      
+        <div class="hero bg2">
+
+        </div>
+
+        <div class="hero bg3">
+
+        </div>
+
+        <div class="logo">
+          
+        </div>
+      
+	  
+      <!-- wines -->
+       <div class="wines">
+        <div class="winesHeader">
+          <h1>Wines</h1>
+        </div>
+
+        <ul class="burici">
+          <div class="prvi">
+          <a href="prvi.html">
+          <li class="bure">
+            <img src="img/prvaflasa.png">
+            <div class="bureOpis">
+              <div class="bureOpis_1">
+                <span>Red wine</span>
+              </div>
+            </div>
+          </li></a>
+          </div>
+
+          <div class="drugi">
+          <a href="drugi.html">
+          <li class="bure">
+            <img src="img/drugaflasa.png">
+            <div class="bureOpis">
+              <div class="bureOpis_1">
+                <span>White wine</span>
+              </div>
+            </div>
+          </li></a>
+
+          <div class="treci">
+          <a href="treci.html">
+          <li class="bure">
+            <img src="img/trecaflasa.png">
+            <div class="bureOpis">
+              <div class="bureOpis_1">
+                <span>Bubbles</span>
+              </div>
+            </div>
+          </li></a>
+
+         <div class="cetvrti">
+          <a href="cetvrti.html">
+          <li class="bure">
+            <img src="img/cetvrtaflasa.png">
+            <div class="bureOpis">
+              <div class="bureOpis_1">
+                <span>Rose</span>
+              </div>
+            </div>
+          </li></a>
+        </ul>
+      </div>
+
+
+<!-- wine tour -->
+      <div class="tour">
+        <div class="tourHeader">
+          <span> Wine tours</span>
+        </div>
+        <div class="prozor">
+           <div class="roletna">
+            <div class="promo-tekst" >Wine tour<strong><span>from</span> $20</strong><a href="#contact" class="window-cta" "page-scroll">Reservation</a></div>
+          </div>
+        </div>
+      </div>
+       <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your number *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- </section> -->
+
+
+
+  <a href="#" class="scrollup scrollupHidden" onclick="scrollTo();">Scroll</a>
+</div>
+
+  <!-- footer -->
+<section id="footer">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="text">Copyright &copy; Milica Svilar 2016</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        
+                        <li><a href="https://www.facebook.com/milka7"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </section>
+    <!-- kraj footera-->
+</body>
+</html>
